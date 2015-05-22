@@ -1327,15 +1327,23 @@ Only tested with a '328.
 
 Requirements are only 16Mhz
 operation, and hardware serial.</text>
+<text x="27.94" y="76.2" size="1.778" layer="95">16MHz</text>
+<text x="152.4" y="73.66" size="1.778" layer="95">Can be subbed with the NAND version as well!</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="73.66" y="71.12"/>
-<instance part="Q1" gate="G$1" x="27.94" y="68.58" rot="R90"/>
+<instance part="Q1" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="63.5" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="R1" gate="G$1" x="33.02" y="96.52"/>
 <instance part="C1" gate="G$1" x="17.78" y="111.76" rot="R90"/>
 <instance part="U$1" gate="G$1" x="172.72" y="60.96"/>
-<instance part="C2" gate="G$1" x="25.4" y="73.66" rot="R90"/>
-<instance part="C3" gate="G$1" x="25.4" y="63.5" rot="R90"/>
+<instance part="C2" gate="G$1" x="25.4" y="73.66" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.559" y="75.184" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C3" gate="G$1" x="25.4" y="63.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.559" y="65.024" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
